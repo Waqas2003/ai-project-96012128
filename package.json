@@ -1,0 +1,18 @@
+{
+    "name": "pakistan-beauty",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "parcel index.html"
+    },
+    "devDependencies": {
+        "parcel": "^2.4.0",
+        "tailwindcss": "^3.1.8"
+    }
+}
+```
+
+This project uses Tailwind CSS for styling and Parcel as the bundler. The images used in the project are assumed to be in the same directory as the HTML file. You can replace them with your own images.
+
+This project is fully responsive and works on different screen sizes. It has a hero section, features section, and a footer. The features section displays three cards with images and descriptions. The cards are responsive and adjust their width based on the screen size.
+
+You can run the project by executing `npm start` in the terminal, and it will be available at `http://localhost:1234`.
